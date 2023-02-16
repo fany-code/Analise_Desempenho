@@ -1,0 +1,40 @@
+Link: 10000 bytes/segundo
+
+10% ---> 1500   
+40% ---> 40
+50% ---> 550 
+
+tam_medio = (0.1 * 1500) + (0.4 * 40) + (0.5 * 550) = 441
+Logo, temos que o tamanho médio de pacotes é 441 bytes.
+------------------------------------------------------------------------------------------------------------------------------------
+
+OCUPAÇÃO DE 60%
+60% de 10000 bytes/segundo = 6000 bytes/segundo
+n * 441 = 6000
+sendo n = 13,60544
+Consideremos que o intervalo de tempo é: 1/n
+logo link: 0.0735
+------------------------------------------------------------------------------------------------------------------------------------
+
+OCUPAÇÃO DE 80%
+80% de 10000 bytes/segundo = 8000 bytes/segundo
+n * 441 = 8000
+sendo n = 18,14059
+Consideremos que o intervalo de tempo é: 1/n
+logo, o intervalo médio entre pacotes é: 0.055125
+------------------------------------------------------------------------------------------------------------------------------------
+
+OCUPAÇÃO DE 95%
+95% de 10000 bytes/segundo = 9500 bytes/segundo
+n * 441 = 9500
+sendo n = 21,54195
+Consideremos que o intervalo de tempo é: 1/n
+logo, o intervalo médio entre pacotes é: 0.046421
+------------------------------------------------------------------------------------------------------------------------------------
+
+OCUPAÇÃO DE 99%
+99% de 10000 bytes/segundo = 9900 bytes/segundo
+n * 441 = 9900
+sendo n = 22,448979
+Consideremos que o intervalo de tempo é: 1/n
+logo, o intervalo médio entre pacotes é: 0.044545
