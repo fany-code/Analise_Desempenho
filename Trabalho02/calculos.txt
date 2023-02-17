@@ -13,7 +13,7 @@ OCUPAÇÃO DE 60%
 n * 441 = 6000
 sendo n = 13,60544
 Consideremos que o intervalo de tempo é: 1/n
-logo link: 0.0735
+Logo a capacidade do link: 0.0735
 ------------------------------------------------------------------------------------------------------------------------------------
 
 OCUPAÇÃO DE 80%
@@ -21,7 +21,7 @@ OCUPAÇÃO DE 80%
 n * 441 = 8000
 sendo n = 18,14059
 Consideremos que o intervalo de tempo é: 1/n
-logo, o intervalo médio entre pacotes é: 0.055125
+Logo a capacidade do link: 0.055125
 ------------------------------------------------------------------------------------------------------------------------------------
 
 OCUPAÇÃO DE 95%
@@ -29,7 +29,7 @@ OCUPAÇÃO DE 95%
 n * 441 = 9500
 sendo n = 21,54195
 Consideremos que o intervalo de tempo é: 1/n
-logo, o intervalo médio entre pacotes é: 0.046421
+Logo a capacidade do link: 0.046421
 ------------------------------------------------------------------------------------------------------------------------------------
 
 OCUPAÇÃO DE 99%
@@ -37,4 +37,4 @@ OCUPAÇÃO DE 99%
 n * 441 = 9900
 sendo n = 22,448979
 Consideremos que o intervalo de tempo é: 1/n
-logo, o intervalo médio entre pacotes é: 0.044545
+Logo a capacidade do link: 0.044545
